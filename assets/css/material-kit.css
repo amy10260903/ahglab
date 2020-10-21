@@ -15476,17 +15476,17 @@ small,
 
   h2,
   .h2 {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   h3,
   .h3 {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
 
   h4,
   .h4 {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   h5,
@@ -17050,6 +17050,12 @@ footer .footer-brand:focus {
 
 footer .copyright {
   padding: 15px 0;
+}
+
+@media (max-width: 768px) {
+  footer .copyright {
+    font-size: .75rem;
+  }
 }
 
 footer .copyright .material-icons {
