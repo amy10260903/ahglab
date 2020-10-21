@@ -15299,6 +15299,14 @@ textarea {
   color: #ffffff;
 }
 
+.nav-pills.nav-pills-custom .nav-item .nav-link.active,
+.nav-pills.nav-pills-custom .nav-item .nav-link.active:focus,
+.nav-pills.nav-pills-custom .nav-item .nav-link.active:hover {
+  background-color: #d1002c;
+  box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.2), 0 13px 24px -11px rgba(209, 0, 45, 0.6);
+  color: #ffffff;
+}
+
 .nav-pills.nav-pills-icons .nav-item .nav-link {
   border-radius: 4px;
 }
@@ -17261,6 +17269,13 @@ footer .pull-center {
   background: linear-gradient(60deg, #ffa726, #f57c00);
 }
 
+.card .card-header-custom,
+.card.bg-custom,
+.card.card-rotate.bg-custom .front,
+.card.card-rotate.bg-custom .back {
+  background: linear-gradient(60deg, #d1002c, #a30326);
+}
+
 .card .card-header-danger,
 .card.bg-danger,
 .card.card-rotate.bg-danger .front,
@@ -17277,6 +17292,12 @@ footer .pull-center {
 
 .card .card-header-primary {
   box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.2), 0 13px 24px -11px rgba(156, 39, 176, 0.6);
+}
+
+.card .card-header-custom {
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.2), 0 13px 24px -11px rgba(209, 0, 45, 0.6);
 }
 
 .card .card-header-danger {

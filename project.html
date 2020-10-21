@@ -11,6 +11,19 @@ Coded by Creative Tim
 =========================================================
 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. -->
+<!--
+=========================================================
+Material Kit - v2.0.7
+=========================================================
+
+Product Page: https://www.creative-tim.com/product/material-kit
+Copyright 2020 Creative Tim (https://www.creative-tim.com/)
+
+Coded by Creative Tim
+
+=========================================================
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -28,7 +41,7 @@ The above copyright notice and this permission notice shall be included in all c
   <link href="./assets/css/material-kit.css?v=2.0.7" rel="stylesheet" />
 </head>
 
-<body class="index-page sidebar-collapse">
+<body class="profile-page sidebar-collapse">
   <nav class="navbar navbar-transparent navbar-color-on-scroll fixed-top navbar-expand-lg" color-on-scroll="100" id="sectionsNav">
     <div class="container">
       <div class="navbar-translate">
@@ -43,7 +56,7 @@ The above copyright notice and this permission notice shall be included in all c
       </div>
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav ml-auto">
-          <li class="active nav-item">
+          <li class="nav-item">
             <a href="/" class="nav-link">
               Home
             </a>
@@ -53,7 +66,7 @@ The above copyright notice and this permission notice shall be included in all c
               Research
             </a>
           </li>
-          <li class="nav-item">
+          <li class="active nav-item">
             <a href="project" class="nav-link">
               Project
             </a>
@@ -80,54 +93,74 @@ The above copyright notice and this permission notice shall be included in all c
   <div class="page-header header-filter" data-parallax="true" style="background-image: url('./assets/img/bg/headphones-over-ear.jpg')">
     <div class="container">
       <div class="row">
-        <div class="col-md-8 ml-auto mr-auto">
-          <div class="brand">
-            <h1><strong>AHG LABORATORY</strong></h1>
-            <h3>The Acoustic and Hearing Group in National Tsing Hua University, Taiwan (R.O.C)</h3>
-          </div>
+        <div class="col-md-6">
+          <h1 class="title">Ongoing Project</h1>
         </div>
       </div>
     </div>
   </div>
   <div class="main main-raised">
-    <div class="container">
-      <div class="section text-center">
-        <div class="row">
-          <div class="col-md-8 ml-auto mr-auto">
-            <h2 class="title">Introduction</h2>
-            <h5 class="description">We are the group lead by Prof. Yi-Wen, Liu, <br/>
-              and dedicating on doing the research related to acoustics hearing.</h5>
+    <div class="card card-nav-tabs">
+      <div class="card-header card-header-custom">
+        <!-- colors: "header-primary", "header-info", "header-success", "header-warning", "header-danger" -->
+        <div class="nav-tabs-navigation">
+          <div class="nav-tabs-wrapper">
+            <ul class="nav nav-tabs" data-tabs="tabs">
+              <li class="nav-item">
+                <a class="nav-link active" href="#hearing" data-toggle="tab">
+                  <i class="material-icons">hearing</i>
+                  Hearing &amp; Biomedical Signals
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#svm" data-toggle="tab">
+                  <i class="material-icons">chat</i>
+                  Speech &amp; Voice Machine (SVM)
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#dsp" data-toggle="tab">
+                  <i class="material-icons">people</i>
+                  Digital Sound &amp; People (DSP)
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
-        <div class="features">
-          <div class="row">
-            <div class="col-md-4">
-              <div class="info">
-                <div class="icon icon-custom">
-                  <i class="material-icons">hearing</i>
-                </div>
-                <h4 class="info-title">Hearing</h4>
-                <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
+      </div>
+      <div class="card-body ">
+        <div class="tab-content">
+          <div class="tab-pane active" id="hearing">
+            <div class="row">
+              <div class="col-md-8 ml-auto mr-auto">
+                <ul style="list-style-type:none">
+                  <li>
+                    <p><strong>OAE Theory: SSOAE, Wave Scattering</strong></p>
+                  </li>
+                  <li>
+                    <p>
+                      <strong>OAE Measurement in Challenging Environments</strong><br/>
+                      Distortion compensation and simulation<br/>
+                      Denoising<br/>
+                      Noise Cancellation
+                    </p>
+                  </li>
+                  <li>
+                    <p><strong>OAE - Meniere's Disease</strong></p>
+                  </li>
+                  <li>
+                    <p><strong>Tinnitus Cognitive Therapy</strong></p>
+                  </li>
+                  <li>
+                    <p><strong>Hearing Loss Simulation in Real-time</strong></p>
+                  </li>
+                </ul>
               </div>
             </div>
-            <div class="col-md-4">
-              <div class="info">
-                <div class="icon icon-custom">
-                  <i class="material-icons">chat</i>
-                </div>
-                <h4 class="info-title">Speech &amp; Voice Machine</h4>
-                <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="info">
-                <div class="icon icon-custom">
-                  <i class="material-icons">people</i>
-                </div>
-                <h4 class="info-title">Digital Sound &amp; People</h4>
-                <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
-              </div>
-            </div>
+          </div>
+          <div class="tab-pane" id="svm">
+          </div>
+          <div class="tab-pane" id="dsp">
           </div>
         </div>
       </div>
